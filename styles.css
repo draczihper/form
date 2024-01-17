@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+
 .img img {
     width: 40vw;
 }
