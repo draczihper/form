@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    display: flex;
+}
+
 .img {
     height: 100vh;
     width: 40vw;
