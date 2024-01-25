@@ -22,3 +22,9 @@
 .form-container {
     background-color: hsl(0, 0, 100%);
 }
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
