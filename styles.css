@@ -36,3 +36,7 @@ p {
     font-weight: bold;
     font-family: sans-serif;
 }
+
+p > span {
+    font-style: italic;
+}
