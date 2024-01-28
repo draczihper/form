@@ -39,3 +39,7 @@ p {
 p > span {
     font-style: italic;
 }
+
+.form {
+    display: grid;
+}
