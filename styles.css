@@ -47,3 +47,7 @@ p > span {
 .form > p  {
     margin-bottom: 10px;
 }
+
+.form label {
+    padding-bottom: 10px;
+}
