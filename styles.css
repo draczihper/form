@@ -27,10 +27,6 @@
     background-color: hsl(0, 0, 100%);
 }
 
-.form-container > * {
-    margin: 10px 30px;
-}
-
 p {
     font-size: 15px;
     font-weight: bold;
