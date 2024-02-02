@@ -46,6 +46,7 @@ p > span {
 
 .form > p  {
     margin-bottom: 10px;
+    grid-column: 1 / 3;
 }
 
 .form label {
