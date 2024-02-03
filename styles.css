@@ -54,3 +54,7 @@ p > span {
     grid-auto-flow: row;
     padding-bottom: 30px;
 }
+
+.form input {
+    padding: 5px;
+}
