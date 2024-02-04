@@ -52,9 +52,6 @@ p > span {
 .form label {
     display: grid;
     grid-auto-flow: row;
-    padding-bottom: 30px;
-}
+    padding-bottom: 15px;
 
-.form input {
-    padding: 5px;
 }
