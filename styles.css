@@ -53,5 +53,6 @@ p > span {
     display: grid;
     grid-auto-flow: row;
     padding-bottom: 15px;
-
+    font-size: 14px;
+    color: #222222;
 }
