@@ -56,3 +56,7 @@ p > span {
     font-size: 14px;
     color: #222222;
 }
+
+.form input {
+    all: unset;
+}
