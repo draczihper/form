@@ -62,4 +62,5 @@ p > span {
     border: 1px solid #e0e0e0;
     padding: 5px;
     width: 250px;
+    border-radius: 3px;
 }
