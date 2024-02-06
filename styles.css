@@ -69,3 +69,6 @@ input:hover {
     cursor: text;
 }
 
+input: focus {
+    border-color: #0000ff;
+}
