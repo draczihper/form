@@ -64,3 +64,8 @@ p > span {
     width: 250px;
     border-radius: 3px;
 }
+
+input:hover {
+    cursor: text;
+}
+
