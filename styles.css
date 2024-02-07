@@ -73,3 +73,7 @@ input:hover {
 input:focus {
     border-color: #0000ff;
 }
+
+input:invalid {
+    border-color: #ff0000;
+}
