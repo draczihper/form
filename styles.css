@@ -55,6 +55,7 @@ p > span {
     padding-bottom: 15px;
     font-size: 14px;
     color: #222222;
+    margin: 0 10px;
 }
 
 .form input {
