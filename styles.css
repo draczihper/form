@@ -84,4 +84,6 @@ input:invalid {
 
 .btn button {
     padding: 10px 30px;
+    font-weight: bold;
+    
 }
