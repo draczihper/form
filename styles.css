@@ -77,3 +77,7 @@ input:focus {
 input:invalid {
     border-color: #ff0000;
 }
+
+.btn {
+    margin: 60px 10px;
+}
