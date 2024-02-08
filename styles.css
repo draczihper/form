@@ -81,3 +81,7 @@ input:invalid {
 .btn {
     margin: 60px 10px;
 }
+
+.btn button {
+    padding: 10px 30px;
+}
