@@ -122,3 +122,7 @@ span.error-msg {
 .login a {
     all: unset;
 }
+
+.login a:hover {
+    cursor: pointer;
+}
