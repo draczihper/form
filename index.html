@@ -21,31 +21,45 @@
 
             <div class="form">
                 <p><span>Let's do this</span></p>
-                <label for="first-name">FIRST NAME
-                    <input type="text" id="first-name" name="first-name">
-                </label>
-                <label for="last-name">LAST NAME
-                    <input type="text" id="last-name" name="last-name">
-                </label>
-
-                <label for="email">EMAIL
-                    <input type="email" id="email" name="email" required>
-                </label>
-
-                <label for="phone-number">PHONE NUMBER
-                    <input type="tel" id="phone-number" name="phone-number">
-                </label>
+                <div>
+                    <label for="first-name">FIRST NAME
+                        <input type="text" id="first-name" name="first-name">
+                    </label>
+                </div>
+                <div>
+                    <label for="last-name">LAST NAME
+                        <input type="text" id="last-name" name="last-name">
+                    </label>
+                </div>
+                <div>
+                    <label for="email">EMAIL
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                </div>
+                <div>
+                    <label for="phone-number">PHONE NUMBER
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </label>
+                </div>
+                <div>
                 <label for="password">
                     PASSWORD
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" class="error">
                 </label>
-                <label for="confirm-password">
-                    CONFIRM PASSWORD 
-                    <input type="password" id="confirm-password" name="confirm-password">
-                </label>
+                <span class="error-msg">* Passwords do not match</span>
+                </div>
+                <div>
+                    <label for="confirm-password">
+                        CONFIRM PASSWORD 
+                        <input type="password" id="confirm-password" name="confirm-password" class="error">
+                    </label>
+                </div>
             </div>
             <div class="btn">
                 <button type="submit">Create Account</button>
+            </div>
+            <div class="login">
+                <p>Already have an account? <span><a href="/">Log in</a></span></p>
             </div>
         </div>
     </div>
