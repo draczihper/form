@@ -84,9 +84,9 @@ input:invalid {
     border-color: #bf102d;
 }
 
-input:valid {
+/* input:valid {
     border-color: green;
-}
+} */
 
 input.error {
     border-color: #bf102d;
