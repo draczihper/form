@@ -20,38 +20,56 @@
             <p>You <span>know</span> you want to.</p>
 
             <div class="form">
-                <p><span>Let's do this</span></p>
+                <p>Let's do this</p>
                 <div>
                     <label for="first-name">FIRST NAME
-                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" id="first-name" name="first-name" required
+                        placeholder="John">
                     </label>
                 </div>
                 <div>
                     <label for="last-name">LAST NAME
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" required
+                        placeholder="Doe"
+                        >
                     </label>
                 </div>
                 <div>
                     <label for="email">EMAIL
-                        <input type="email" id="email" name="email" required>
+                        <input type="email" id="email" name="email" required
+                        placeholder="example@mail.com"
+                        pattern="/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g"
+                        >
                     </label>
                 </div>
                 <div>
                     <label for="phone-number">PHONE NUMBER
-                        <input type="tel" id="phone-number" name="phone-number">
+                        <input 
+                        type="tel" id="phone-number" name="phone-number" required
+                        min="10"
+                        max="10"
+                        placeholder="123 456 7890"
+                        pattern="/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/g">
                     </label>
                 </div>
                 <div>
                 <label for="password">
                     PASSWORD
-                    <input type="password" id="password" name="password" class="error">
+                    <input 
+                    type="password" id="password" name="password" class="error" required
+                    minlength="8"
+                    maxlength="20"
+                    pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm">
                 </label>
                 <span class="error-msg">* Passwords do not match</span>
                 </div>
                 <div>
                     <label for="confirm-password">
                         CONFIRM PASSWORD 
-                        <input type="password" id="confirm-password" name="confirm-password" class="error">
+                        <input type="password" id="confirm-password" name="confirm-password" class="error" required
+                        minlength="8"
+                        maxlength="20"
+                        pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm">
                     </label>
                 </div>
             </div>
